@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 
 /**
  *_memcpy -   copy number bytes form adress "from" to adress "to"
