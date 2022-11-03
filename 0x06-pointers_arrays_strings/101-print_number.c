@@ -18,7 +18,7 @@ else
 m = n;
 }
 d = m;
-count = 1
+count = 1;
 while (d > 9)
 {
 d /= 10;
