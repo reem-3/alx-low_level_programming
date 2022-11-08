@@ -21,7 +21,7 @@ s2 = "";
 for (i = 0; s1[i] != '\0'; i++)
 ;
 
-for (j = 0; s2[j] != '\0'; j++)	
+for (j = 0; s2[j] != '\0'; j++)
 ;
 
 strout = malloc(sizeof(char) * (i + j + 1));
