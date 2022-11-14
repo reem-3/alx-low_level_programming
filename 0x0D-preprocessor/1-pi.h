@@ -1,6 +1,6 @@
-#ifndef _FUNCTION_LIKE_MACRO_
-#define _FUNCTION_LIKE_MACRO_
+#ifndef _PI_
+#define _PI_
 
-#define ABS(x) ((x) < (0) ? ((x) * (-1)) : (x))
+#define PI 3.14159265359
 
 #endif
