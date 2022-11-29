@@ -34,7 +34,7 @@ free(next);
 }
 else
 {
-free(prev); 
+free(prev);
 *head = next;
 }
 return (1);
