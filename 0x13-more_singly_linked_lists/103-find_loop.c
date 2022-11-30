@@ -16,10 +16,10 @@ while (head && p2 && p2->next)
 {
 head = head->next;
 p2 = p2->next->next;
-if (head == p2)	
+if (head == p2)
 {
 head = prev;
-prev =  p2; 
+prev =  p2;
 while (1)
 {
 p2 = prev;
@@ -27,11 +27,12 @@ while (p2->next != head && p2->next != prev)
 {
 p2 = p2->next;
 }
-if (p2->next == head) 
+if (p2->next == head)
 break;
 head = head->next;
 }
 return (p2->next);
+}
 }
 return (NULL);
 }
