@@ -38,6 +38,7 @@ new->next = *head;
 else
 {
 new->next = h->next;
-h->next = new;}
+h->next = new;
+}
 return (new);
 }
